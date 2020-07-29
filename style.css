@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3475ca;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+}
+
+.navigation {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner .navigation .logo .heading {
+  color: #fff;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  font-size: 28px;
+}
+
+.links {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav-link {
+  position: relative;
+  display: inline-block;
+  margin-right: 80px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner .content {
+  position: relative;
+  max-width: 750px;
+  text-align: center;
+}
+
+.banner .content h2 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.banner .content p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.about .contentBx {
+  width: 50%;
+  padding: 100px;
+  /* background: #069e76; */
+  background: #e7a42b;
+}
+
+.about .contentBx .heading {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about .contentBx .text {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.about .imgBx {
+  background: url(about.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.services {
+  align-items: center;
+  padding: 100px;
+  background: #12222d;
+  width: 100%;
+  text-align: center;
+}
+.services .heading {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.services .text {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.services .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  color: #333;
+}
+
+.services .container .serviceBx {
+  position: relative;
+  width: 350px;
+  height: 410px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.services .container img {
+  transition: 0.5s;
+  max-width: 250px;
+}
+
+.services .container .serviceBx h2 {
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.container .serviceBx:nth-child(1) {
+  background: #ff6d00;
+  box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.5);
+}
+.container .serviceBx:nth-child(2) {
+  background: #039be5;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.container .serviceBx:nth-last-child(1) {
+  background: #f2bf22;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.container .serviceBx img:hover {
+  transform: scale(0.9);
+}
+
+.technology {
+  background: #2e8273;
+  padding: 100px;
+  margin-top: -300px;
+  padding-top: 300px;
+}
+
+.technology .contentBx {
+  text-align: center;
+}
+.technology .contentBx .heading {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.technology .contentBx .text {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.contact {
+  padding: 100px;
+  color: #fff;
+  background: #12222d;
+  min-height: 400px;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+}
+
+.about .contentBx {
+  padding: 100px;
+  width: 50%;
+  background: url(texture.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgBx2 {
+  background: url(feedback3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.about .contentBx .form .inputBx {
+  margin-bottom: 40px;
+  transition: 0.5s;
+}
+
+.about .contentBx .form .inputBx input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+.about .contentBx .form .inputBx input::placeholder {
+  color: #fff;
+}
+
+.about .contentBx .form .inputBx textarea {
+  background: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding: 20px 0;
+  transition: 0.5s;
+}
+
+.about .contentBx .form .inputBx textarea:focus {
+  border-bottom: 2px solid rgb(192, 191, 191);
+}
+.about .contentBx .form .inputBx input:focus {
+  border-bottom: 2px solid rgb(192, 191, 191);
+}
+.about .contentBx .form .inputBx textarea::placeholder {
+  color: #fff;
+}
+
+.about .contentBx .form .inputBx input[type="submit"] {
+  width: 150px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+}
+.about .contentBx .form .inputBx input[type="submit"]:hover {
+  background: rgb(192, 191, 191);
+}
